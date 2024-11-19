@@ -1,0 +1,113 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+header {
+    font-family: 'Parisienne', cursive; 
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #C1BAD9;
+    font-size: 2.5rem;
+}
+header p {
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    color: #C1BAD9;
+    font-size: 1.22rem;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #F2C8C4;
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #C1BAD9;
+    font-weight: 700;
+}
+
+nav .active a {
+    background-color: #C1BAD9;
+    color: white;
+}
+nav a:hover {
+    background-color: #F2C8C4;
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    font-family: 'Parisienne', cursive;
+    color: #CEF2C4;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+}
+main h2 {
+    color: #F2C8C4;
+    margin-bottom: .2rem;
+}
+main p {
+    color: black;
+    margin: 0 0 .8rem 0;
+    line-height: 150%;
+}
+
+main ol {
+    background-color: #D9D9D9;
+}
+main dl dt {
+    color: #D9F2D5;
+    font-weight: 700;
+}
+main dl dd {
+    color: #CEF2C4;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    color: #CEF2C4;
+}
+
+main a {
+    color: #CEF2C4;
+}
+main a:hover {
+    background-color:#eee;
+}
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #C1BAD9;
+    font-size: .7rem;
+    padding: 1rem 0;
+}
+footer a {
+    color: #C1BAD9;
+}
