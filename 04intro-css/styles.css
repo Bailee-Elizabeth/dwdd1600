@@ -98,7 +98,7 @@ main address {
     background-color: #737373;
     padding: 1rem 2vw;
     width: 100%;
-    border-style: solid 5px black;
+    border-style: solid;
     border-color: #000;
     border-radius: .8rem;
 
